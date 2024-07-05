@@ -9,9 +9,9 @@ import carImage4 from '../Style/CarImages/449695697_1639521453549160_36055118617
 function CarsShowcase() {
     const cars = [
         { title: "2011 Ford Ranger", price: "$15,000", image: carImage1 },
-        { title: "Car Model 2", price: "$20,000", image: carImage2 },
-        { title: "Car Model 3", price: "$25,000", image: carImage3 },
-        { title: "Car Model 4", price: "$30,000", image: carImage4 },
+        { title: "2004 Mazda 6 wagon", price: "$5,000", image: carImage2 },
+        { title: "1997 Ford escort", price: "$4,500", image: carImage3 },
+        { title: "2008 Nissan altima 3.5 SE Coupe 2D", price: "$10,000", image: carImage4 },
     ];
 
     return (
