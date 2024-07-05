@@ -1,0 +1,28 @@
+.Testimonials {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .testimonialSlide {
+    padding: 20px;
+  }
+  
+  .testimonialSlide p {
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  
+  .testimonialSlide h4 {
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 1em;
+  }
+  
+  .slick-dots li button:before {
+    color: #333;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #000;
+  }
+  
