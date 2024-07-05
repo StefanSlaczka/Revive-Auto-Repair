@@ -1,12 +1,15 @@
 import Navbar from "./Componnets/Navbar";
-import "./Style/App.css"
 import MissonQ from "./Componnets/MissonQ";
+import CarsShowcase from "./Componnets/CarsShowcase";
+
+import "./Style/App.css"
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
       <MissonQ/>
+      <CarsShowcase/>
     </div>
   );
 }
