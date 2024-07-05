@@ -1,0 +1,60 @@
+.ContactForm {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ContactForm h2 {
+    margin-bottom: 20px;
+  }
+  
+  .ContactForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #121212;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  
+  .thank-you-message {
+    font-size: 18px;
+    color: #28a745;
+  }
+  
